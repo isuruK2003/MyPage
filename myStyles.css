@@ -1,0 +1,89 @@
+:root {
+    --page-margin:20%;
+    --border-radius:8px;
+}
+
+@media only screen and (max-width: 1000px) {
+    :root {
+        --page-margin:5%;
+    }
+}
+
+body {
+    margin: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Header */
+
+header {
+    background-image: url("images/header_image.jpg");
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 25px;
+}
+
+header .profile-pic {
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
+    width: 20%;
+    /* Centering */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header .profile-heading {
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+
+main {
+    margin-left : var(--page-margin);
+    margin-right: var(--page-margin);
+}
+
+
+footer {
+    padding-left : var(--page-margin);
+    padding-right: var(--page-margin);
+    background-color: black;
+    color: gray;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Container */
+
+.container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+/* Card */
+
+.card {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    padding: 10px;
+    border: solid 2px rgba(255, 208, 1, 0.407);
+    border-left: solid 10px rgb(255, 208, 1);
+}
