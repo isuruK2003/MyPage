@@ -52,12 +52,16 @@ footer {
     padding-right: var(--page-margin);
     background-color: black;
     color: gray;
-    display: grid;
-    grid-template-columns: auto;
-    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 16px;
     padding-bottom: 16px;
     text-align: center;
+}
+
+.footer-item {
+    padding: 16px;
 }
 
 a {
