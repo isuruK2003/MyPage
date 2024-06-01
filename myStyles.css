@@ -19,26 +19,32 @@ body {
 header {
     background-image: url("images/header_image.jpg");
     background-size: cover;
-    padding-top: 80px;
-    padding-bottom: 25px;
 }
 
-header .profile-pic {
+.heading {
+    padding-top: 100px;
+    padding-bottom: 10px;
+    backdrop-filter: blur(30px);
+}
+
+.profile-heading {
+    margin-left : var(--page-margin);
+    margin-right: var(--page-margin);
+    color: white;
+    font-size: 3em;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.3);
+}
+/* header .profile-pic {
     border-radius: 50%;
     box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
     width: 20%;
-    /* Centering */
+
+    /*Centering:*/
+    /*
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-header .profile-heading {
-    text-align: center;
-    color: white;
-    text-shadow: 0px 0px 5px rgb(0, 0, 0);
-    font-size: 20px;
-}
+} */
 
 
 main {
@@ -90,4 +96,12 @@ a:hover {
     padding: 10px;
     border: solid 2px rgba(255, 208, 1, 0.407);
     border-left: solid 10px rgb(255, 208, 1);
+}
+
+.alert {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    padding: 10px;
+    background-color: purple;
+    color: white;
 }
