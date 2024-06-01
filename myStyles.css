@@ -25,6 +25,7 @@ header {
     padding-top: 100px;
     padding-bottom: 10px;
     backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
 }
 
 .profile-heading {
